@@ -14,5 +14,8 @@ This is a static portfolio website for Data Analysis, Python Development, and We
 4. Save.
 
 Replace `yourmail@example.com` in `index.html` with your real email address.
+<<<<<<< HEAD
 "Stack_Intelliinge" 
 "Stack_Intelliinge" 
+=======
+>>>>>>> ddb31b64099672509482109a2ae391c489821b6e
