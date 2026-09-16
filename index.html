@@ -82,26 +82,6 @@ document.getElementById("clientReviewForm").addEventListener("submit", function(
     this.reset();
 });
 </script>
-<script>
-document.getElementById("clientReviewForm").addEventListener("submit", function(event) {
-    event.preventDefault();
-
-    const name = document.getElementById("clientName").value;
-    const rating = document.getElementById("rating").value;
-    const review = document.getElementById("reviewText").value;
-
-    document.getElementById("reviewMessage").textContent =
-        `Thank you ${name}! Your ${rating}-star review has been submitted.`;
-
-    console.log({
-        name: name,
-        rating: rating,
-        review: review
-    });
-
-    this.reset();
-});
-</script>
 <body>        
 <header><div class="wrap nav">
 <a class="brand" href="#home"><img src="assets/stack-intelligence-logo.jpeg" alt="Stack Intelligence logo"><span>STACK INTELLIGENCE<small>Data • Code • Web • Solutions</small></span></a>
@@ -216,5 +196,26 @@ document.getElementById("clientReviewForm").addEventListener("submit", function(
 </main>
 <footer><div class="wrap foot"><span>© 2026 Stack Intelligence. All rights reserved.</span><span><a href="https://github.com/kumarant972-rgb">GitHub</a> · <a href="#contact">Contact</a></span></div></footer>
 <script>document.getElementById("form").addEventListener("submit",function(e){e.preventDefault();document.getElementById("notice").style.display="block";this.reset()})</script>
+<script>
+document.getElementById("clientReviewForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById("clientName").value;
+    const rating = document.getElementById("rating").value;
+    const review = document.getElementById("reviewText").value;
+
+    document.getElementById("reviewMessage").textContent =
+        `Thank you ${name}! Your ${rating}-star review has been submitted.`;
+
+    console.log({
+        name: name,
+        rating: rating,
+        review: review
+    });
+
+    this.reset();
+});
+</script>
+
 </body>
 </html>
