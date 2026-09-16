@@ -6,8 +6,82 @@
 <title>Stack Intelligence | Freelance Services</title>
 <style>
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;background:#071426;color:#f5f9ff;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(92%,1120px);margin:auto}header{position:sticky;top:0;z-index:5;background:#071426ee;border-bottom:1px solid #ffffff20}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:10px;font-weight:800}.brand img{width:45px;height:45px;object-fit:cover;border-radius:50%;background:#fff}.brand small{display:block;color:#a9bdd3;font-size:11px;font-weight:normal}.links{display:flex;gap:24px;color:#a9bdd3;font-size:14px}.links a:hover{color:#fff}.btn{display:inline-block;padding:12px 19px;border-radius:10px;font-weight:bold;border:1px solid #ffffff25}.primary{background:linear-gradient(135deg,#36a4ff,#6366f1);border:0;color:#fff}.hero{padding:95px 0 80px;background:radial-gradient(circle at 85% 15%,#36a4ff2b,transparent 30%),radial-gradient(circle at 10% 15%,#8b5cf61c,transparent 28%)}.hero-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:55px}.eyebrow{color:#68bcff;font-weight:bold}.hero h1{font-size:clamp(38px,5vw,64px);line-height:1.08;letter-spacing:-2px;margin:14px 0 20px}.gradient{background:linear-gradient(90deg,#4eb5ff,#a78bfa);-webkit-background-clip:text;color:transparent}.hero p{color:#a9bdd3;font-size:17px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0}.trust{display:flex;flex-wrap:wrap;gap:18px;color:#c7d8e9;font-size:13px}.visual{background:linear-gradient(145deg,#142f4d,#0b1b30);border:1px solid #ffffff20;border-radius:24px;padding:22px;box-shadow:0 25px 70px #0005}.dots{display:flex;gap:7px;margin-bottom:18px}.dots i{width:10px;height:10px;border-radius:50%;background:#607b96}.code{background:#06111f;border-radius:15px;padding:24px;font:13px Consolas,monospace;color:#9bd5ff;min-height:240px}.p{color:#c5a5ff}.y{color:#f6d58a}.g{color:#8de7b1}.section{padding:80px 0}.heading{text-align:center;max-width:650px;margin:0 auto 40px}.heading h2{font-size:clamp(28px,4vw,42px);margin:0 0 8px}.heading p,.card p,.about p{color:#a9bdd3}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#0d2038;border:1px solid #ffffff20;border-radius:18px;padding:27px}.icon{font-size:28px;margin-bottom:14px}.card h3{font-size:21px;margin:0 0 9px}.list{padding:0;list-style:none;color:#c7d8e9;font-size:13px}.list li{margin:8px 0}.list li:before{content:"✓";color:#65c3ff;margin-right:8px}.about{display:grid;grid-template-columns:1fr 1fr;gap:22px}.facts{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.fact{background:#112b48;padding:14px;border-radius:12px}.fact strong,.fact span{display:block}.fact span{color:#a9bdd3;font-size:12px}.skills{display:flex;flex-wrap:wrap;gap:9px}.skill,.tag{background:#142c47;border:1px solid #ffffff20;border-radius:50px;padding:7px 12px;font-size:12px;color:#c9ddf0}.project{padding:0;overflow:hidden}.project-top{height:150px;background:linear-gradient(135deg,#16486b,#18285e);padding:20px;display:flex;align-items:end}.project-top.two{background:linear-gradient(135deg,#43265e,#182d56)}.project-top.three{background:linear-gradient(135deg,#145347,#123548)}.mock{height:95px;width:100%;background:#06111fcc;border:1px solid #ffffff25;border-radius:10px;padding:15px}.line{height:7px;width:70%;background:#4baeff;border-radius:5px;margin-bottom:10px}.line.short{width:45%;background:#8b5cf6}.project-body{padding:22px}.contact{display:grid;grid-template-columns:1fr 1fr;gap:35px;background:linear-gradient(135deg,#102c49,#151d42);border:1px solid #ffffff20;border-radius:20px;padding:38px}.contact h2{font-size:34px;line-height:1.15}.details{color:#c9d9ea;font-size:14px}.details div{margin:9px 0}form{display:grid;gap:12px}input,textarea{width:100%;padding:13px 15px;border-radius:10px;border:1px solid #ffffff20;background:#071525;color:#fff;font:inherit}textarea{min-height:120px}footer{border-top:1px solid #ffffff20;padding:25px 0;color:#a9bdd3;font-size:13px}.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:15px}@media(max-width:800px){.hero-grid,.about,.contact{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.links{gap:12px;font-size:12px}}@media(max-width:550px){.grid{grid-template-columns:1fr}.links{display:none}.hero{padding-top:60px}.section{padding:60px 0}.contact{padding:25px}}
+/* Client Reviews */
+
+.reviews-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.reviews-subtitle {
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
+.review-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.review-card {
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 150, 255, 0.35);
+    background: rgba(20, 30, 50, 0.7);
+    text-align: left;
+}
+
+.stars {
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.review-card h3 {
+    margin-bottom: 15px;
+}
+
+.review-card p {
+    line-height: 1.7;
+    opacity: 0.9;
+}
+
+.review-button-area {
+    margin-top: 35px;
+}
+
+.review-button {
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
 </style>
 </head>
+<script>
+document.getElementById("clientReviewForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById("clientName").value;
+    const rating = document.getElementById("rating").value;
+    const review = document.getElementById("reviewText").value;
+
+    document.getElementById("reviewMessage").textContent =
+        `Thank you ${name}! Your ${rating}-star review has been submitted.`;
+
+    console.log({
+        name: name,
+        rating: rating,
+        review: review
+    });
+
+    this.reset();
+});
+</script>
 <script>
 document.getElementById("clientReviewForm").addEventListener("submit", function(event) {
     event.preventDefault();
@@ -99,6 +173,43 @@ document.getElementById("clientReviewForm").addEventListener("submit", function(
         </div>
 
     </div>
+</section>
+<section id="review-form" class="review-form">
+    <h2>Leave a Review ⭐</h2>
+    <p>Worked with us? Share your experience.</p>
+
+    <form id="clientReviewForm">
+
+        <label for="clientName">Your Name</label>
+        <input
+            type="text"
+            id="clientName"
+            placeholder="Enter your name"
+            required
+        >
+
+        <label for="rating">Your Rating</label>
+        <select id="rating" required>
+            <option value="">Select rating</option>
+            <option value="5">★★★★★ — Excellent</option>
+            <option value="4">★★★★☆ — Very Good</option>
+            <option value="3">★★★☆☆ — Good</option>
+            <option value="2">★★☆☆☆ — Average</option>
+            <option value="1">★☆☆☆☆ — Poor</option>
+        </select>
+
+        <label for="reviewText">Your Review</label>
+        <textarea
+            id="reviewText"
+            rows="5"
+            placeholder="Write your experience..."
+            required
+        ></textarea>
+
+        <button type="submit">Submit Review ⭐</button>
+
+        <p id="reviewMessage"></p>
+    </form>
 </section>
 =======
 >>>>>>> ddb31b64099672509482109a2ae391c489821b6e
