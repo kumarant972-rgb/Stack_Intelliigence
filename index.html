@@ -28,63 +28,7 @@ document.getElementById("clientReviewForm").addEventListener("submit", function(
     this.reset();
 });
 </script>
-<body>
-<section id="reviews" class="reviews">
-    <h2>Client Reviews</h2>
-    <p class="section-subtitle">
-        Feedback from clients who worked with Stack Intelligence
-    </p>
-
-    <div class="review-card">
-        <div class="stars">★★★★★</div>
-
-        <h3>Great Work!</h3>
-
-        <p>
-            "Professional work, good communication and delivered the
-            project as requested."
-        </p>
-
-        <strong>— Your Client</strong>
-    </div>
-</section>
-<section id="review-form" class="review-form">
-    <h2>Leave a Review ⭐</h2>
-    <p>Worked with us? Share your experience.</p>
-
-    <form id="clientReviewForm">
-
-        <label for="clientName">Your Name</label>
-        <input
-            type="text"
-            id="clientName"
-            placeholder="Enter your name"
-            required
-        >
-
-        <label for="rating">Your Rating</label>
-        <select id="rating" required>
-            <option value="">Select rating</option>
-            <option value="5">★★★★★ — Excellent</option>
-            <option value="4">★★★★☆ — Very Good</option>
-            <option value="3">★★★☆☆ — Good</option>
-            <option value="2">★★☆☆☆ — Average</option>
-            <option value="1">★☆☆☆☆ — Poor</option>
-        </select>
-
-        <label for="reviewText">Your Review</label>
-        <textarea
-            id="reviewText"
-            rows="5"
-            placeholder="Write your experience..."
-            required
-        ></textarea>
-
-        <button type="submit">Submit Review ⭐</button>
-
-        <p id="reviewMessage"></p>
-    </form>
-</section>
+<body>        
 <header><div class="wrap nav">
 <a class="brand" href="#home"><img src="assets/stack-intelligence-logo.jpeg" alt="Stack Intelligence logo"><span>STACK INTELLIGENCE<small>Data • Code • Web • Solutions</small></span></a>
 <nav class="links"><a href="#home">Home</a><a href="#services">Services</a><a href="#projects">Portfolio</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
@@ -111,8 +55,52 @@ document.getElementById("clientReviewForm").addEventListener("submit", function(
 </div></div></section>
 <<<<<<< HEAD
 <section class="section" id="contact"><div class="wrap contact"><div><h2>Let's Work Together!</h2><p>Have a project in mind? Contact me to discuss your requirements, timeline, and budget.</p><div class="details"><div>📧 Email: kumarant972@gmail.com</div><div>💼 GitHub: github.com/kumarant972-rgb</div><div>🌍 Available for remote projects</div></div></div><form id="form"><input type="text" placeholder="Your name" required><input type="email" placeholder="Your email" required><input type="text" placeholder="Project type" required><textarea placeholder="Tell me about your project..." required></textarea><button class="btn primary" type="submit">Send Enquiry →</button><small id="notice" style="display:none;color:#86efac">Thank you! Connect this form to an email service or backend to receive enquiries.</small></form></div></section>
+<!-- Client Reviews -->
+<section id="reviews" class="reviews-section">
+    <div class="container">
+
+        <h2>Client Reviews</h2>
+        <p class="reviews-subtitle">
+            Feedback from clients who worked with Stack Intelligence
+        </p>
+
+        <div class="review-grid">
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <h3>Great Work!</h3>
+
+                <p>
+                    "Professional work, good communication and
+                    delivered the project as requested."
+                </p>
+
+                <strong>— Client</strong>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <h3>Excellent Service!</h3>
+
+                <p>
+                    "Clean work and good communication throughout
+                    the project."
+                </p>
+
+                <strong>— Client</strong>
+            </div>
+
+        </div>
+
+        <div class="review-button-area">
+            <a href="#review-form" class="review-button">
+                ⭐ Leave a Review
+            </a>
+        </div>
+
+    </div>
+</section>
 =======
-<section class="section" id="contact"><div class="wrap contact"><div><h2>Let's Work Together!</h2><p>Have a project in mind? Contact me to discuss your requirements, timeline, and budget.</p><div class="details"><div>📧 Email: yourmail@example.com</div><div>💼 GitHub: github.com/kumarant972-rgb</div><div>🌍 Available for remote projects</div></div></div><form id="form"><input type="text" placeholder="Your name" required><input type="email" placeholder="Your email" required><input type="text" placeholder="Project type" required><textarea placeholder="Tell me about your project..." required></textarea><button class="btn primary" type="submit">Send Enquiry →</button><small id="notice" style="display:none;color:#86efac">Thank you! Connect this form to an email service or backend to receive enquiries.</small></form></div></section>
 >>>>>>> ddb31b64099672509482109a2ae391c489821b6e
 </main>
 <footer><div class="wrap foot"><span>© 2026 Stack Intelligence. All rights reserved.</span><span><a href="https://github.com/kumarant972-rgb">GitHub</a> · <a href="#contact">Contact</a></span></div></footer>
